@@ -1,3 +1,7 @@
+17 / 6 / 2021
+
+> The first load of reviews all being positive is indeed just the nature of the data
+
 15 / 6 / 2021
 
 > Going to play with layer of MLP model
