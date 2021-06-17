@@ -1,6 +1,10 @@
 17 / 6 / 2021
 
 > The first load of reviews all being positive is indeed just the nature of the data
+> way I implemented k-fold is a mircale .. for some reason
+> 'jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10' if there's an issue with data rates
+> excluding certain word types knocks my model down ~0.1 in overall accuracy
+> cahnging MAX_FEATURES from 200 to 500 sees a marginal increase in accuracy of 0.01
 
 15 / 6 / 2021
 
