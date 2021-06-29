@@ -1,6 +1,8 @@
 29 / 6 / 2021
 
 > After a hiatus, it is apparent to me that the approach I took to 'thicken' the training data is infact a 'cheat' because the thickened training data includes testing data.
+> Perhaps sorting word frequencies by their volume is screwing up the nueral net
+> Seemingly it turns out that when I was choosing frequent words as features I had been looking at letters and not words
 
 17 / 6 / 2021
 
