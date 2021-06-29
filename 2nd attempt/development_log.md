@@ -1,3 +1,7 @@
+29 / 6 / 2021
+
+> After a hiatus, it is apparent to me that the approach I took to 'thicken' the training data is infact a 'cheat' because the thickened training data includes testing data.
+
 17 / 6 / 2021
 
 > The first load of reviews all being positive is indeed just the nature of the data
