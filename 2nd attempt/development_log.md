@@ -1,3 +1,7 @@
+30 / 6 / 2021
+
+> Nueral net should actually be nearly off words now instead of letters. Hopefully this means if I start filtering out certain word types again that this time that will actually have tangiable bearing on the accuracy
+
 29 / 6 / 2021
 
 > After a hiatus, it is apparent to me that the approach I took to 'thicken' the training data is infact a 'cheat' because the thickened training data includes testing data.
