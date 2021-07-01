@@ -2,6 +2,15 @@
 
 > Filter cell now returns reviews as list of strings rather than list of lists. This seems to have dealt with type issues when playing the cells in a non-linear sequence, which was caused by reviews entering the filter cell as one type and leaving as another.
 > Tags seem to be being assigned per word - this needs investigation
+> input rows = 1500, MAX_FEATURES = 500, ACCEPTABLE_TAGS = ALL_TAGS.
+    Overall accuracy ~= 0.70
+> Same as above but with ACCEPTABLE_TAGS= ['FW', 'JJ', 'JJR', 'JJS', 'LS', 'MD', 'NN', 'NNS', 'NNP', 'NNPS',
+ 'POS', 'RB', 'RBR', 'RBS', 'RP', 'UH', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'WP$']
+    Overall accuracy ~= 0.72 -.-
+> Same as above but with MAX_FEATURES = 1500 => Overall accuracy ~= 0.71
+> Would be handy if I could find a way to shuffle the json file entries, as for some reason there's a huge swath of positive-only reviews at the start that mean a large number of entries have to be read to get an unbiased sampl
+> For some reason lemmatizing words reduces the accuracy by ~= 0.03
+> Probably my idea of 'thickening' the data is inane as the modal learns from the training data as much as it can, regardless of whether i've 'thickened' it first by interwieving duplicates of the training data into the training data
 
 30 / 6 / 2021
 
