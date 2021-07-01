@@ -1,3 +1,8 @@
+1 / 7 / 2021
+
+> Filter cell now returns reviews as list of strings rather than list of lists. This seems to have dealt with type issues when playing the cells in a non-linear sequence, which was caused by reviews entering the filter cell as one type and leaving as another.
+> Tags seem to be being assigned per word - this needs investigation
+
 30 / 6 / 2021
 
 > Nueral net should actually be nearly off words now instead of letters. Hopefully this means if I start filtering out certain word types again that this time that will actually have tangiable bearing on the accuracy
