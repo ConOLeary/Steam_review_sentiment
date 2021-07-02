@@ -3,6 +3,8 @@
 > "In Python, our objects, and arrays are called dictionaries and lists respectively" https://oppor.com/shuffling-data-json/
         Useful for future reference. Found this when looking into how json file of learning data could be shuffled. Perhaps I could access the data randomly rather than randomising the order of the data. I am worried though that this former approach could significantly slow down the cell that reads in the learning data.
 > Reviews loading in randomised order. When printed, the polarities still seem to clump up by True and False.. Needs further investigation. English language filtering being moved from data reading cell to filtering cell - might give each type of filtering their own cell actually
+> Getting roughly the same results for 3,000 rows as I do for 200 - which should speed up my trial and error cycle
+> Got rid of my data 'thickening' and accuracy dropped 10% .. either I was onto something or my new code is screwed up
 
 1 / 7 / 2021
 
