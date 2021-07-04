@@ -1,3 +1,7 @@
+4 / 7 / 2021
+
+> At the smaller volums of input data I use while experimenting, the model's results are quite ireegular, so I have increased the k in f_folds to 20
+
 2 / 7 / 2021
 
 > "In Python, our objects, and arrays are called dictionaries and lists respectively" https://oppor.com/shuffling-data-json/
