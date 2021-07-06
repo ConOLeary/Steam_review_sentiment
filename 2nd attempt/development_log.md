@@ -1,6 +1,20 @@
+6 / 7 / 2021
+
+> https://www.youtube.com/watch?v=wNBaNhvL4pg
+  https://www.youtube.com/watch?v=gQddtTdmG_8
+  https://towardsdatascience.com/word-embeddings-exploration-explanation-and-exploitation-with-code-in-python-5dac99d5d795
+
 4 / 7 / 2021
 
-> At the smaller volums of input data I use while experimenting, the model's results are quite ireegular, so I have increased the k in f_folds to 20
+> At the smaller volums of input data I use while experimenting, the model's results are quite ireegular, so I have increased the k in f_fold to 20
+> With k_folds = 5 (and input rows = 300) => overall accuracy ~= 0.65, 0.65, 0.63, 0.59, 0.58
+> With k_folds = 20(and input rows = 300) => overall accuracy ~= 0.61. I think I may be overfolding for the amoutn of data (300 rows) as many of the confusion matrixes for the folds are extremely divient in their results so i'm not sure if this would yield less variance between runs.
+> With k_folds = 20(and input rows = 500, features = 500) => overall accuracy ~= 0.70, 0.64, 0.68, 0.69. Variance is down which is nice, but more interesting is that accuracy is up.
+> With k_folds = 20(and input rows = 1000, features = 500) => overall accuracy ~= 0.68, 0.60
+> With k_folds = 20(and input rows = 500, features = 500) => overall accuracy ~= 0.65
+> With k_folds = 20(and input rows = 500, features = 1000) => overall accuracy ~= 0.64, 0.58
+> With k_folds = 20(and input rows = 500, features = 200) => overall accuracy ~= 0.57, 0.76, 0.49, 0.65 0.56. Load times are mad fast but variance is mad high .. interesting. Average accuracy is still lower then with features = 500.
+> I am wondering now whether having set activation="rely" in the MLP classifier is stopping inputs from having negative weighting
 
 2 / 7 / 2021
 
