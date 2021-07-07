@@ -1,8 +1,15 @@
+7 / 7 / 2021
+
+> https://radimrehurek.com/gensim/models/word2vec.html
+  https://rare-technologies.com/word2vec-tutorial/
+> Language filtering seems to have no effect on efficacy of og model; have incorportated into new, embedded approach incase it has some use in that instance. Same goes to word type filtering, although I suspect that could be relevant to this newest approach.
+
 6 / 7 / 2021
 
 > https://www.youtube.com/watch?v=wNBaNhvL4pg
   https://www.youtube.com/watch?v=gQddtTdmG_8
   https://towardsdatascience.com/word-embeddings-exploration-explanation-and-exploitation-with-code-in-python-5dac99d5d795
+  https://stackoverflow.com/questions/57599259/sklearngensim-how-to-use-gensims-word2vec-embedding-for-sklearn-text-classifi
 
 4 / 7 / 2021
 
