@@ -1,6 +1,7 @@
 11 / 7 / 2021
 
 > MIN_ENGLISH at 0.0 still cancels out non-english ¯\_(ツ)_/¯
+> So apparently i'm writing in italic now. Dense representation > sparse (bag of words) representation for nueral nets
 
 7 / 7 / 2021
 
