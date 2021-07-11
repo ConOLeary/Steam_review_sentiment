@@ -1,3 +1,7 @@
+11 / 7 / 2021
+
+> MIN_ENGLISH at 0.0 still cancels out non-english ¯\_(ツ)_/¯
+
 7 / 7 / 2021
 
 > https://radimrehurek.com/gensim/models/word2vec.html
