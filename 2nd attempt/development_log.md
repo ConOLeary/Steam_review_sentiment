@@ -1,3 +1,8 @@
+14 / 7 / 2021
+
+> word embeddings approach is predicting all trues or all falses.. and I haven't done a train-test split yet
+> think i've found the issue: entries of greatest_activations are all the same ..
+
 11 / 7 / 2021
 
 > MIN_ENGLISH at 0.0 still cancels out non-english ¯\_(ツ)_/¯
