@@ -1,3 +1,12 @@
+16 / 7 / 2021
+
+> 0.804 w/ VEC_SIZE = 5
+  0.807 w/ VEC_SIZE = 20
+  0.781 w/ VEC_SIZE = 200
+  0.902 w/ VEC_SIZE = 5
+  0.790 w/ VEC_SIZE = 5
+  0.828 w/ VEC_SIZE = 5
+
 14 / 7 / 2021
 
 > word embeddings approach is predicting all trues or all falses.. and I haven't done a train-test split yet
