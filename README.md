@@ -1,3 +1,8 @@
+# Steam_review_sentiment
+
+## Development Log
+
+
 16 / 7 / 2021
 
 > 0.804 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
