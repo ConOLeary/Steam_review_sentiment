@@ -1,11 +1,14 @@
 16 / 7 / 2021
 
-> 0.804 w/ VEC_SIZE = 5
-  0.807 w/ VEC_SIZE = 20
-  0.781 w/ VEC_SIZE = 200
-  0.902 w/ VEC_SIZE = 5
-  0.790 w/ VEC_SIZE = 5
-  0.828 w/ VEC_SIZE = 5
+> 0.804 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.807 w/ VEC_SIZE = 20 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.781 w/ VEC_SIZE = 200 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.902 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.790 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.828 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 10 w/ train data == test data
+  0.984 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 50 w/ train data == test data
+  0.985 w/ VEC_SIZE = 5 w/ AMOUNT_OF_FILTS= 50 w/ train data == test data
+> Going to implement a train test split for when finding the max activations of the filters, although I am going to leave the word2vec training on the full data as, from what I understand, in a 'real' scenario I would add the 'real data' to the preexisting word2vec training
 
 14 / 7 / 2021
 
